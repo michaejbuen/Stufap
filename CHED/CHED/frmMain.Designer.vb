@@ -77,7 +77,7 @@ Partial Class frmMain
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.MidnightBlue
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(1145, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(1146, 0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(221, 196)
         Me.PictureBox2.TabIndex = 1
@@ -101,7 +101,7 @@ Partial Class frmMain
         Me.lblDate.Font = New System.Drawing.Font("Myriad Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDate.ForeColor = System.Drawing.Color.White
         Me.lblDate.Image = CType(resources.GetObject("lblDate.Image"), System.Drawing.Image)
-        Me.lblDate.Location = New System.Drawing.Point(1142, 122)
+        Me.lblDate.Location = New System.Drawing.Point(1143, 122)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(51, 18)
         Me.lblDate.TabIndex = 3
@@ -155,7 +155,7 @@ Partial Class frmMain
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1294, 12)
+        Me.Button1.Location = New System.Drawing.Point(1284, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(27, 23)
         Me.Button1.TabIndex = 7
@@ -169,7 +169,7 @@ Partial Class frmMain
         Me.Label2.Font = New System.Drawing.Font("Myriad Pro Light", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
-        Me.Label2.Location = New System.Drawing.Point(34, 718)
+        Me.Label2.Location = New System.Drawing.Point(33, 719)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(449, 26)
         Me.Label2.TabIndex = 8
@@ -196,7 +196,7 @@ Partial Class frmMain
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(443, 250)
+        Me.PictureBox6.Location = New System.Drawing.Point(435, 250)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(379, 183)
         Me.PictureBox6.TabIndex = 11
@@ -205,7 +205,7 @@ Partial Class frmMain
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(443, 456)
+        Me.PictureBox7.Location = New System.Drawing.Point(435, 456)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(379, 183)
         Me.PictureBox7.TabIndex = 12
@@ -214,7 +214,7 @@ Partial Class frmMain
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(851, 250)
+        Me.PictureBox8.Location = New System.Drawing.Point(838, 250)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(379, 183)
         Me.PictureBox8.TabIndex = 13
@@ -223,7 +223,7 @@ Partial Class frmMain
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(851, 456)
+        Me.PictureBox9.Location = New System.Drawing.Point(838, 456)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(379, 183)
         Me.PictureBox9.TabIndex = 14
@@ -235,7 +235,7 @@ Partial Class frmMain
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(39, 274)
+        Me.Button2.Location = New System.Drawing.Point(47, 274)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(141, 130)
         Me.Button2.TabIndex = 15
@@ -247,7 +247,7 @@ Partial Class frmMain
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(41, 481)
+        Me.Button3.Location = New System.Drawing.Point(47, 481)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(134, 132)
         Me.Button3.TabIndex = 16
@@ -286,7 +286,7 @@ Partial Class frmMain
         Me.Label5.Font = New System.Drawing.Font("Myriad Pro Light", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Image = CType(resources.GetObject("Label5.Image"), System.Drawing.Image)
-        Me.Label5.Location = New System.Drawing.Point(627, 336)
+        Me.Label5.Location = New System.Drawing.Point(619, 336)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(114, 26)
         Me.Label5.TabIndex = 20
@@ -298,7 +298,7 @@ Partial Class frmMain
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.Location = New System.Drawing.Point(465, 274)
+        Me.Button4.Location = New System.Drawing.Point(457, 274)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(141, 130)
         Me.Button4.TabIndex = 19
@@ -311,7 +311,7 @@ Partial Class frmMain
         Me.Label6.Font = New System.Drawing.Font("Myriad Pro Light", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Image = CType(resources.GetObject("Label6.Image"), System.Drawing.Image)
-        Me.Label6.Location = New System.Drawing.Point(627, 543)
+        Me.Label6.Location = New System.Drawing.Point(619, 543)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(144, 26)
         Me.Label6.TabIndex = 22
@@ -323,7 +323,7 @@ Partial Class frmMain
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Location = New System.Drawing.Point(465, 481)
+        Me.Button5.Location = New System.Drawing.Point(457, 481)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(141, 130)
         Me.Button5.TabIndex = 21
@@ -335,7 +335,7 @@ Partial Class frmMain
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.Location = New System.Drawing.Point(872, 274)
+        Me.Button6.Location = New System.Drawing.Point(859, 274)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(141, 130)
         Me.Button6.TabIndex = 19
@@ -348,7 +348,7 @@ Partial Class frmMain
         Me.Label7.Font = New System.Drawing.Font("Myriad Pro Light", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Image = CType(resources.GetObject("Label7.Image"), System.Drawing.Image)
-        Me.Label7.Location = New System.Drawing.Point(1034, 336)
+        Me.Label7.Location = New System.Drawing.Point(1021, 336)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(116, 26)
         Me.Label7.TabIndex = 20
@@ -360,7 +360,7 @@ Partial Class frmMain
         Me.Button7.FlatAppearance.BorderSize = 0
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
-        Me.Button7.Location = New System.Drawing.Point(872, 482)
+        Me.Button7.Location = New System.Drawing.Point(859, 482)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(141, 130)
         Me.Button7.TabIndex = 19
@@ -373,7 +373,7 @@ Partial Class frmMain
         Me.Label8.Font = New System.Drawing.Font("Myriad Pro Light", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Image = CType(resources.GetObject("Label8.Image"), System.Drawing.Image)
-        Me.Label8.Location = New System.Drawing.Point(1034, 544)
+        Me.Label8.Location = New System.Drawing.Point(1021, 544)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(146, 26)
         Me.Label8.TabIndex = 20
@@ -384,11 +384,11 @@ Partial Class frmMain
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
-        Me.Button8.Location = New System.Drawing.Point(1327, 12)
+        Me.Button8.Location = New System.Drawing.Point(1317, 12)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(27, 23)
         Me.Button8.TabIndex = 23
-        Me.Button8.Text = "X"
+        Me.Button8.Text = "x"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'frmMain

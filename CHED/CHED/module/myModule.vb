@@ -5,7 +5,9 @@ Module myModule
     Public ds As New DataSet
     Public dr As MySqlDataReader
     Public cmd As New MySqlCommand
+    Public StudID As String
     'Private strConn = "server=192.168.0.2; userid=test; password=test;database=ched_stufap"
+    'Private strConn = "server=localhost; userid=root; password=;database=ched_stufap"
     Private strConn = "server=localhost; userid=root; password=;database=test_db"
     Public Sub dbConnect()
         Try
@@ -36,4 +38,32 @@ Module myModule
         Dim t As String = TimeOfDay.ToString("tt")
         Return t
     End Function
+    Public Sub MyNonQuery(ByVal SQCommand As String)
+        Dim SQLCMD As New MySqlCommand(SQCommand, dbConn)
+        Try
+            dbConn.Open()
+            SQLCMD.ExecuteNonQuery()
+            dbConn.Close()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+    Public Sub getStudID()
+        Try
+            Dim id As Integer
+            dbConn.Open()
+            Dim cmd As New MySqlCommand("SELECT stud_id FROM student ORDER BY stud_id DESC LIMIT 1", dbConn)
+            Dim reader As MySqlDataReader
+            reader = cmd.ExecuteReader
+            While reader.Read
+                id = reader.GetInt32("stud_id")
+                StudID = (id + 1).ToString
+            End While
+            dbConn.Close()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            dbConn.Dispose()
+        End Try
+    End Sub
 End Module

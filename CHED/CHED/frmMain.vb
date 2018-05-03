@@ -15,19 +15,11 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        frmStudent.ShowDialog()
-        'Close()
-    End Sub
-
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        frmStudent.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        Close()
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        frmUpStudent.ShowDialog()
+        Me.Close()
     End Sub
 End Class

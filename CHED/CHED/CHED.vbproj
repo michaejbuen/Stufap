@@ -79,6 +79,12 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCourseList.Designer.vb">
+      <DependentUpon>frmCourseList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCourseList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -86,16 +92,16 @@
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmSchoolList.Designer.vb">
+      <DependentUpon>frmSchoolList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchoolList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmStudent.Designer.vb">
       <DependentUpon>frmStudent.vb</DependentUpon>
     </Compile>
     <Compile Include="frmStudent.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmUpStudent.Designer.vb">
-      <DependentUpon>frmUpStudent.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmUpStudent.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="module\myModule.vb" />
@@ -119,14 +125,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCourseList.resx">
+      <DependentUpon>frmCourseList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSchoolList.resx">
+      <DependentUpon>frmSchoolList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStudent.resx">
       <DependentUpon>frmStudent.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmUpStudent.resx">
-      <DependentUpon>frmUpStudent.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
